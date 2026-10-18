@@ -1,6 +1,6 @@
 import random
 
-choice = input("Please choose a template: 1, 2, or 3: ")
+choice = input("Choose a template number (1, 2, or 3) to generate a random story: ")
 
 if choice == "1" or choice == "2" or choice == "3":
 
@@ -28,9 +28,9 @@ if choice == "1" or choice == "2" or choice == "3":
         noun5 = input("Enter a noun: ")
 
         story = (
-            f"It was about {number} {measure_of_time} ago when I arrived at the hospital in a {transportation}."
-            f"The hospital is a/an {adjective} place,there are a lot of {adjective2} {noun} here."
-            f"There are nurses here who have {color} {body_part}. If someone wants to come into my room I told them that they have to {verb} first."
+            f"It was about {number} {measure_of_time} ago when I arrived at the hospital in a {transportation}. "
+            f"The hospital is a/an {adjective} place, there are a lot of {adjective2} {noun} here. "
+            f"There are nurses here who have {color} {body_part}. If someone wants to come into my room I told them that they have to {verb} first. "
             f"I've decorated my room with {number2} {noun2}. "
             f"Today I talked to a doctor and they were wearing a {noun3} on their {body_part2}. "
             f"I heard that all doctors {verb2} {noun4} every day for breakfast. "
@@ -58,7 +58,7 @@ if choice == "1" or choice == "2" or choice == "3":
         noun2 = input("Enter another noun: ")
 
         story = (
-            f"This weekend I am going camping with {person_name}. I packed my lantern,sleeping bag, and {noun}. "
+            f"This weekend I am going camping with {person_name}. I packed my lantern, sleeping bag, and {noun}. "
             f"I am so {adjective} to {verb} in a tent. "
             f"I am {adjective2} we might see a(n) {animal}, I hear they're kind of dangerous. "
             f"While we're camping, we are going to hike, fish, and {verb2}. "
@@ -93,10 +93,10 @@ if choice == "1" or choice == "2" or choice == "3":
         noun5 = input("Enter another noun: ")
 
         story = (
-            f"Dear {person_name}, I am writing to you from a {adjective} castle in an enchanted forest."
-            f"I found myself here one day after going for a ride on a {color} {animal} in {place}."
-            f"There are {adjective2} {magical_creature} and {adjective3} {magical_creature2} here!"
-            f"In the {room} there is a pool full of {noun}."
+            f"Dear {person_name}, I am writing to you from a {adjective} castle in an enchanted forest. "
+            f"I found myself here one day after going for a ride on a {color} {animal} in {place}. "
+            f"There are {adjective2} {magical_creature} and {adjective3} {magical_creature2} here! "
+            f"In the {room} there is a pool full of {noun}. "
             f"I fall asleep each night on a {noun2} of {noun_plural3} and dream {adjective4} {noun_plural4}. "
             f"It feels as though I have lived here for {number} {measure_of_time}. "
             f"I hope one day you can visit, although the only way to get here now is {verb_ing} on a {adjective5} {noun5}!!"
